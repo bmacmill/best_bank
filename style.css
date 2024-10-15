@@ -1,0 +1,134 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+header img {
+    height: 75px;
+    padding: 40px 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.nav-container {
+    background-color: #FFD18C;
+    padding: 1.5;
+    width: 100%;
+}
+
+li{
+    width: 1.8em;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 1.25em;
+    justify-content: space-between;
+    height: 1.5em;
+}
+
+
+/* buttons */
+.pay-transfer{
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 2em;
+    background-color: #FFFFFF;
+    border: 3px solid #FFA724;
+    border-radius: 20px;
+    padding: 1em 3em;
+    font-family: "Inter", sans-serif;
+    width: 20%;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.main, .expenses, .savings{
+    width: 100%;
+    border: 3px solid #FFA724;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 1.5em 1em;
+    background-color: #FFFFFF;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.main:hover,
+.expenses:hover,
+.savings:hover,
+.btn:hover{
+    background-color: #FFD18C;
+    
+}
+
+.bg-color {
+    background-color: #f8f3f6;
+    /* padding: 20px; */
+    margin: 0;
+    margin-top: -1em;
+    min-height: 75vh;
+}
+
+
+.fill{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFD18C;
+    padding: 1.5em 1em;
+    border-radius: 10px;
+    max-width: 90%;
+    border: 3px solid #FFA724;
+    margin-bottom: 1em;
+    white-space: nowrap;
+}
+
+.flex-container{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.accounts{
+    /* flex-grow: 1; */
+    flex-basis: 400px;
+    /* flex-shrink: 1; */
+    margin-right: 1em;
+    font-weight: bold;
+    
+}
+
+.spending{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    margin-left: 1em;
+    font-weight: bold;
+    display: hidden;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+
